@@ -4,7 +4,7 @@ import datetime
 
 serial_port = '/dev/ttyUSB0'
 baud_rate = '9600'
-t_end = time.time() + 60 * (60*6)
+t_end = time.time() + 30 * (60*6)
 ser = serial.Serial(serial_port, baud_rate, timeout=1)
 
 try:
